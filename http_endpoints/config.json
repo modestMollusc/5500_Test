@@ -11,7 +11,7 @@
         "return_type": "JSON"
     },
     {
-        "http_method": "POST",
+        "http_method": "GET",
         "route": "/pachyderms/create",
         "function_name": "createElephant",
         "validation_method": "NO_VALIDATION",
