@@ -16,6 +16,14 @@ exports = function({ query, headers, body}, response) {
     console.log("Content-Type:", JSON.stringify(contentTypes));
     console.log("Request body:", reqBody);
 
+    //1  post or a put endpoitn
+    // retrieve info from front end that will be posted to db
+    // parse the request JSON body (aka content)
+    // connect to the db
+    // update the db with with content
+    // return to the front end the result JSON of the action
+    //
+
     // You can use 'context' to interact with other application features.
     // Accessing a value:
     // var x = context.values.get("value_name");
